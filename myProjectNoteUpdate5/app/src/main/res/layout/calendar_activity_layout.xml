@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".activity.CalendarActivity">
+    <include layout="@layout/toolbar_multiple"/>
+    <com.t3h.myprojectnoteupdate.customview.CalendarView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/carlendar_custom_calender"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        ></com.t3h.myprojectnoteupdate.customview.CalendarView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_add_calendar_event"
+        android:layout_gravity="bottom|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#4285f4"
+        android:elevation="4dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="#4285f4"
+        app:borderWidth="2dp"
+        app:fabSize="normal"
+        app:layout_anchorGravity="bottom|center"/>
+</android.support.design.widget.CoordinatorLayout>
+</layout>

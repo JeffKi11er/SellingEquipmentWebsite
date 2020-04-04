@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.t3h.myprojectnote.customview.CalendarView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/carlendar_custom_calender"></com.t3h.myprojectnote.customview.CalendarView>
+
+
+</LinearLayout>

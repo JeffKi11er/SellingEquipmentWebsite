@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_search"
+            android:layout_marginLeft="2dp"
+            android:hint="City, United Stated"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_search"
+            android:layout_marginLeft="10dp"
+            android:text="OK"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City : "
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tv_nameCity"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nation : "
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tv_nameNation"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:id="@+id/img_icon"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_cloud"/>
+    <TextView
+        android:textSize="35dp"
+        android:text="Celsius"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E91E63"
+        android:id="@+id/tv_degree"/>
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:text="STATE"
+        />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rain" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_humidity"
+                android:text="Humidity"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_cloud" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_cloud"
+                android:text="Cloud"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_wind" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_wind"
+                android:text="Wind"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/tv_day"
+        android:text="Day time Updating..."
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_nextday"
+        android:text="Days of month"/>
+</LinearLayout>

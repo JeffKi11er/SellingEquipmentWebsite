@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalendarNote</string>
+    <string name="search">Search</string>
+    <string name="Edit_note_title">New note</string>
+    <string name="done">Done</string>
+    <string name="edit_title">Title</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_ringtones">Ringtones</string>
+    <string name="title_menu_setting">Detail</string>
+    <string name="title_color_setting">Color</string>
+    <string name="title_edit_note">New Note</string>
+    <string name="title_edit_note_edit">Edit Note</string>
+</resources>

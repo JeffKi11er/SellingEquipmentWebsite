@@ -1,0 +1,10 @@
+apply plugin: 'com.android.application'
+
+
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:+'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:+'
+    implementation 'androidx.appcompat:appcompat:+'
+}

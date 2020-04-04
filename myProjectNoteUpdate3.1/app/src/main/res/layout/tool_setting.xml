@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_tool"
+            android:text="Tool"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/tv_infom"
+            android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textSize="15dp"
+            android:text="infomation"
+            android:gravity="center_vertical"
+            />
+    </RelativeLayout>
+
+        <ImageView
+
+            android:src="@drawable/ic_next_tool"
+            android:textSize="20sp"
+            android:layout_width="30dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+</layout>

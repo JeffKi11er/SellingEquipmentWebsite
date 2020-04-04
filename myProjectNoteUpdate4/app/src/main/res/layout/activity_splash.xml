@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        >
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_document"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CalendarNote"
+            android:layout_below="@id/iv_logo"
+            android:layout_centerHorizontal="true"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+
+            />
+    </RelativeLayout>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Large.Circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:SpinKit_Color="@color/colorAccent"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

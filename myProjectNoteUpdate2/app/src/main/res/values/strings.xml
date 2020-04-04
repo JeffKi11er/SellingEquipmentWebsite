@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CalendarNote</string>
+    <string name="search">Search</string>
+    <string name="appbar_scollingviews_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+</resources>

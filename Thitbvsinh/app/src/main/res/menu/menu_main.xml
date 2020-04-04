@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_home"
+        android:title="TRANG CHỦ"
+        android:id="@+id/menu_home"
+        ></item>
+    <item
+        android:icon="@drawable/ic_list"
+        android:title="DANH MỤC CÁC HÃNG"
+        android:id="@+id/menu_list"
+        ></item>
+    <item
+        android:title="THIẾT BỊ VỆ SINH"
+        android:id="@+id/menu_wc_tool"
+        ></item>
+    <item
+        android:title="THIẾT BỊ NHÀ BẾP"
+        android:id="@+id/menu_kitchen_tool"
+        ></item>
+    <item
+        android:title="GẠCH ỐP LÁT"
+        android:id="@+id/menu_brigde"
+        ></item>
+    <item
+        android:title="THIẾT BỊ THEO MÙA"
+        android:id="@+id/menu_weather_tool"
+        ></item>
+    <item
+        android:title="SÀN GỖ CÔNG NGHIỆP"
+        android:id="@+id/menu_wood"
+        ></item>
+    <item
+        android:title="ĐIỆN GIA DỤNG"
+        android:id="@+id/menu_electric"
+        ></item>
+    <item
+        android:title="SẢN PHẨM KHÁC"
+        android:id="@+id/menu_others"
+        ></item>
+</menu>
